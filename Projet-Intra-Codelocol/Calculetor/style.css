@@ -1,0 +1,308 @@
+/* body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(222, 26%, 31%);
+} */
+.body1{
+    background-color: hsl(222, 26%, 31%); 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.bodynext{
+    background-color: hsl(222, 26%, 31%);  
+}
+.bodynext2{
+    background-color: #e9e9ea;  
+}
+.bodynext3{
+    background-color: #18012e;  
+}
+/* .divSpan{
+ margin-left: 140px;
+ bottom: 3px;
+ position: relative;
+}
+.LadivTheme{
+    background-color: #29334e;
+    width: 60px;
+    border-radius: 10px;
+}
+.Divdesnumber{
+    position: relative;
+    left: 118px;
+    bottom: 28px;
+} */
+.texte{
+   color: white;
+   font-size: 25px;
+   font-family: 'League Spartan', sans-serif;
+
+}
+.span1{
+    position: relative;
+    left: 242px;
+    top: 13px;
+    color: white;
+     font-size: 15px;
+   font-family: 'League Spartan', sans-serif;
+}
+.span2{
+    position: relative;
+    left: 252px;
+    top: 13px;
+    color: white;
+     font-size: 15px;
+   font-family: 'League Spartan', sans-serif;
+}
+.span3{
+    position: relative;
+    left: 262px;
+    top: 13px;
+    color: white;
+     font-size: 15px;
+   font-family: 'League Spartan', sans-serif;
+}
+.span{
+    position: relative;
+    font-size: 14px;
+    color: white;
+    text-align: end;
+    left: 25%;
+}
+.container{
+    height: 50vh;
+    width: 300px;
+}
+.Divspan{
+    justify-content: end;
+    display: flex;
+    width: 160px;
+    top: 1px;
+    position: relative;
+}
+.Letheme{
+    background-color: #27314a;
+    width: 18%;
+    border-radius: 10px;
+    height: 10px;
+    padding: 1%;
+     position: relative;
+     left: 162px;
+     bottom: 15px;
+     display: flex;
+     gap: 10px;
+}
+.DivthemeText{
+    height: 30px;
+}
+.Divinput{
+    top: 15px;
+    position: relative;
+    height: 72px;
+}
+.Divnumber{
+    position: relative;
+    top: 35px;
+    height: 300px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #232c43;
+    border-radius: 10px;
+}
+.DivAll{
+    position: relative;
+    bottom: 20px;
+}
+.inputText{
+    width: 293px;
+    height: 69px;
+    background-color: #182033;
+    border-radius: 10px;
+    border: none;
+}
+/* .Premiereligne{
+
+} */
+.wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(50px, 30px);
+}
+.btn1{
+    border-radius: 10px;
+   border: none;
+   background-color: #d6d1cc;
+   font-family: 'League Spartan', sans-serif;
+   font-size: 24px;
+   color: #404858;
+}
+.delete{
+    background-color: #347680;
+    border-radius: 10px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.Reset{
+    background-color: #347680;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.lesdeuxButtons{
+    position: relative;
+    top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.btnegale{
+    background-color:   #b85109;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+/* =================== pour les Theme ===================================================================== */
+.Theme1{
+   background-color: hsl(6, 70%, 34%);
+   width: 10px;
+   height: 10px;
+   color: hsl(6, 70%, 34%);
+   border-radius: 20px;
+   cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.Theme2{
+    background-color: hsl(25, 98%, 40%);
+    width: 10px;
+   height: 10px;
+   color: hsl(6, 70%, 34%);
+   border-radius: 20px;
+   cursor: pointer;
+}
+.Theme3{
+    background-color: hsl(176, 100%, 44%);
+    width: 10px;
+   height: 10px;
+   color: hsl(6, 70%, 34%);
+   border-radius: 20px;
+   cursor: pointer; 
+}
+
+.divthemeall{
+    background-color: #27314a;
+}
+.divtheme2{
+    background-color: #d7d2d4;
+}
+.divtheme1{
+    background-color: #27314a;
+}
+.hidden{
+  background-color:#27314a ;
+}
+.divtheme3{
+    background-color: #d7d2d4;
+}
+.bacgroudtheme3{
+    background-color: #21053d;
+}
+.divbacgroud3{
+    background-color: #05e2d9;
+}
+
+.colortheme3{
+    color: #e9dc4c;
+}
+.buttonsbacgroudtheme3{
+    background-color: #5f0583;
+}
+.resestheme3{
+    background-color: #321748;
+}
+.egalecolortheme3{
+    background-color: #09aca7;
+}
+
+/* =================== pour les Theme ===================================================================== */
+
+
+
+
+
+
+
+
+
+/*======================================= pour les  input ============================================== */
+.colorinput2{
+    background-color: #f0eff0;
+}
+
+.inputText{
+    text-align: right;
+    font-size: 22px;
+    color: white;
+   
+}
+.inputText2{
+    text-align: right;
+    font-size: 22px;
+    color: black;
+}
+
+.inputText3{
+    text-align: right;
+    font-size: 22px;
+    color: #e9dc4c;
+}
+
+
+/*======================================= pour les input ============================================== */
+
+
+
+
+
+/*======================================= pour les buttons ============================================== */
+.colorpourladivdesbuttons{
+    background-color: #d7d2d3;
+}
+.colordesbuttons{
+    background-color: #e8e5e5;
+    box-shadow: #658a8f 0px 2px 0px 0px;
+    color: #4f4f4b;
+}
+.colortext{
+    color: #483e31;
+}
+.deletecolor{
+    background-color: #509198;
+    box-shadow: #658a8f 0px 2px 0px 0px;
+}
+.egalebuttons{
+    background-color: #a95716;
+    box-shadow: #658a8f 0px 2px 0px 0px;
+}
+
+/*======================================= pour les buttons ============================================== */

@@ -1,0 +1,55 @@
+.Extentionsboby{
+    background-color: #272527;
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+i{
+    color: white;
+    font-size: 50px;
+}
+span{
+    color: white;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-right: 7px;
+    height: 30px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+.divdesExtentions{
+    background-color: #393839;
+    height: 220px;
+    width: 400px;
+}
+.desicons{
+    background-color: #272527;
+    width: 400px;
+    height: 59px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    gap: 30px
+}
+.bi-facebook{
+    color: blue;
+}
+.bi-youtube{
+    color: red;
+}
+.bi-code-slash{
+    color: orangered;
+}
+.bi-github{
+    color: black;
+}
+.bi-airplane-fill{
+    color: green;
+}
+.link-45deg{
+    font-size: 20px;
+}

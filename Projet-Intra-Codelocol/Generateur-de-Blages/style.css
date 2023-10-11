@@ -1,0 +1,53 @@
+ body{
+    background-color: #1e6592;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+} 
+
+.paragraphe{
+    color: white;
+    text-align: center;
+}
+.leBoutton{
+    background-color:#0d79ff;
+     width: 400px;
+    color: white;
+    padding: 7px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    /* position: relative;
+    top: 50px; */
+}
+.Divbuttons{
+    display: flex;
+    justify-content: center;
+}
+.petitParagraphe{
+    color: white;
+    text-align: right;
+}
+.DivFooter{
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top: 402px; */
+    
+}
+.footeer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #3b5482;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+.Divparoles{
+    margin-bottom: 100px;
+}
+
+
+

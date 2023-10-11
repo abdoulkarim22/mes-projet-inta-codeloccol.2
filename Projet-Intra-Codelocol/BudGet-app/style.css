@@ -1,0 +1,66 @@
+body{
+    background-color: #e8e8e8;
+}
+.container-fluid{
+    position: fixed;
+}
+.border2{
+    border: 2px solid #6c9787;
+    height: 150px;
+    border-radius: 9px;
+}
+.border3{
+    border: 2px solid red;
+    height: 240px;
+    border-radius: 9px;
+}
+.hr{
+    width: 290%;
+}
+.boutonsreset{
+    background-color: #ffffff;
+    border-color: #ffc909;
+    color: #ffc909;
+    border: 2px solid #ffc909;
+    border-radius: 8px;
+    font-size: large;
+}
+.boutonsreset:hover{
+    background-color: #ffc909;
+    color: black;
+}
+.input1{
+    background-color: #ffffff;
+    border: 2px solid green;
+    width: 95%;
+    border-radius: 4px;
+}
+/* datalist{
+    background-color: white;
+} */
+.iconmoney{
+    font-size: 58px;
+    color: #056c89;
+}
+.iconcredit{
+    font-size: 58px;
+    color: #056c89;
+}
+.icondollar{
+    font-size: 58px;
+    color: #056c89;
+}
+.letrait{
+    width: 367px;
+}
+.icongear{
+    color: #0b6a85;
+}
+.F{
+    font-size: 25px;
+    color: red;
+}
+.f1{
+    font-size: 25px;
+    color: green;
+}
